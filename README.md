@@ -8,9 +8,9 @@
 ### 🚀 **EVArc** — *SDE Intern*  
 📍 Remote | 🗓 **Aug 2025 – Oct 2025**
 
-- Built backend features for **Wallet Services** using **Java, MongoDB, AWS Lambda**, focusing on secure and reliable payment pipelines  
-- Implemented **Ledger & Reconciliation pipelines** ensuring transaction accuracy, consistency, and automated reconciliation  
-- Collaborated in a **6-member team** across distributed microservices, delivering end-to-end transaction workflows in a cloud-native architecture  
+- Built backend features for Wallet Services using Java, MongoDB, AWS Lambda, focusing on secure and reliable payment pipelines  
+- Implemented Ledger & Reconciliation pipelines ensuring transaction accuracy, consistency, and automated reconciliation  
+- Collaborated in a 6-member team across distributed microservices, delivering end-to-end transaction workflows in a cloud-native architecture  
 
 ---
 
