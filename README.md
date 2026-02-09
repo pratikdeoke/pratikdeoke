@@ -1,12 +1,6 @@
 <h1 align="center">Hi 👋, I'm Pratik</h1>
 <h3 align="center">3rd Year CS Student</h3>
 
-<p align="center">
-  <a href="https://github.com/pratikdeoke">
-    <img src="https://komarev.com/ghpvc/?username=pratikdeoke&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
-  </a>
-</p>
-
 ---
 
 ## 💼 Experience
@@ -40,18 +34,6 @@
 ### 🧰 Tools
 <p>
   <img src="https://skillicons.dev/icons?i=git,github,postman" />
-</p>
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=pratikdeoke&show_icons=true&theme=tokyonight" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pratikdeoke&layout=compact&theme=tokyonight" />
 </p>
 
 ---
