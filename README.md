@@ -4,7 +4,7 @@
 
 <p>
   <img src="https://img.shields.io/badge/Final_Year-CSE_Student-3B82F6?style=for-the-badge" alt="Final Year CSE Student" />
-  <img src="https://img.shields.io/badge/Ex--SDE_Intern-EVArc-10B981?style=for-the-badge" alt="Ex SDE Intern at EVArc" />
+  <img src="https://img.shields.io/badge/Ex--SWE_Intern-EVArc-10B981?style=for-the-badge" alt="Ex SWE Intern at EVArc" />
 </p>
 
 <p><i>Building scalable systems, reliable backend services, and production-ready applications.</i></p>
@@ -29,7 +29,7 @@ I'm a final-year Computer Science Engineering student with hands-on experience b
 <table>
   <tr>
     <td>
-      <h3>🚀 EVArc — SDE Intern</h3>
+      <h3>🚀 EVArc — SWE Intern</h3>
       <p>📍 Remote &nbsp;|&nbsp; 🗓 August 2025 – October 2025</p>
       <ul>
         <li>Built backend features for <b>Wallet Services</b> using <b>Java, MongoDB, and AWS Lambda</b>, focusing on secure and reliable payment pipelines.</li>
@@ -46,20 +46,54 @@ I'm a final-year Computer Science Engineering student with hands-on experience b
 
 <table>
   <tr>
-    <td width="200"><b>👨‍💻 Languages</b></td>
-    <td><img src="https://skillicons.dev/icons?i=c,cpp,java,python,sql" alt="Languages" /></td>
+    <td width="220"><b>👨‍💻 Programming Languages</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=java,cpp,py,js" alt="Languages" />
+      <img src="https://img.shields.io/badge/SQL-3B82F6?style=for-the-badge" alt="SQL" />
+    </td>
   </tr>
   <tr>
     <td><b>🌐 Web Technologies</b></td>
-    <td><img src="https://skillicons.dev/icons?i=react,nodejs,express,html,css" alt="Web Technologies" /></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=react,html,css,nodejs,express" alt="Web" />
+      <img src="https://img.shields.io/badge/REST_APIs-3B82F6?style=for-the-badge" alt="REST APIs" />
+    </td>
   </tr>
   <tr>
-    <td><b>☁️ Cloud & Databases</b></td>
-    <td><img src="https://skillicons.dev/icons?i=postgres,mysql,redis,vercel,docker,aws" alt="Cloud and Databases" /></td>
+    <td><b>🗄️ Databases</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,mysql" alt="Databases" /><br />
+      <sub>Redis: Caching · Distributed Locking · Rate Limiting</sub>
+    </td>
   </tr>
   <tr>
-    <td><b>🧰 Tools</b></td>
-    <td><img src="https://skillicons.dev/icons?i=git,github,postman" alt="Tools" /></td>
+    <td><b>🧰 Tools & Platforms</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=git,github,docker,kafka,aws,vercel,postman,cmake" alt="Tools" />
+      <img src="https://img.shields.io/badge/GDB-3B82F6?style=for-the-badge" alt="GDB" /><br />
+      <sub>AWS Lambda · Vercel (CI/CD) · Apache Kafka</sub>
+    </td>
+  </tr>
+  <tr>
+    <td><b>🤖 AI/ML & GenAI</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=tensorflow" alt="TensorFlow" />
+      <img src="https://img.shields.io/badge/RAG-8B5CF6?style=for-the-badge" alt="RAG" />
+      <img src="https://img.shields.io/badge/Embeddings-8B5CF6?style=for-the-badge" alt="Embeddings" />
+      <img src="https://img.shields.io/badge/Sentence_Transformers-8B5CF6?style=for-the-badge" alt="Sentence Transformers" />
+      <img src="https://img.shields.io/badge/pgvector-8B5CF6?style=for-the-badge" alt="pgvector" />
+      <img src="https://img.shields.io/badge/LLM_APIs-8B5CF6?style=for-the-badge" alt="LLM APIs" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>📚 Fundamentals</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/DBMS-10B981?style=for-the-badge" alt="DBMS" />
+      <img src="https://img.shields.io/badge/DSA-10B981?style=for-the-badge" alt="DSA" />
+      <img src="https://img.shields.io/badge/OOP-10B981?style=for-the-badge" alt="OOP" />
+      <img src="https://img.shields.io/badge/Operating_Systems-10B981?style=for-the-badge" alt="Operating Systems" />
+      <img src="https://img.shields.io/badge/System_Design-10B981?style=for-the-badge" alt="System Design" />
+    </td>
   </tr>
 </table>
 
