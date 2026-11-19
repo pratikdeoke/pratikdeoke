@@ -170,7 +170,7 @@ flowchart LR
 
 <div align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=pratikdeoke&show_icons=true&theme=transparent&hide_border=true&title_color=3B82F6&icon_color=3B82F6&text_color=8B949E" alt="GitHub Stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pratikdeoke&layout=donut&langs_count=8&theme=transparent&hide_border=true&title_color=3B82F6&text_color=8B949E" alt="Top Languages" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pratikdeoke&layout=donut&langs_count=8&custom_title=Languages&bg_color=0D1117&border_color=30363D&title_color=58A6FF&text_color=FFFFFF&border_radius=10" alt="Languages" />
   <br />
   <img src="https://streak-stats.demolab.com?user=pratikdeoke&theme=transparent&hide_border=true&ring=3B82F6&fire=3B82F6&currStreakLabel=8B949E&sideLabels=8B949E&currStreakNum=8B949E&sideNums=8B949E&dates=8B949E" alt="GitHub Streak" />
 </div>
