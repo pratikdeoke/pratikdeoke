@@ -49,14 +49,13 @@ I'm a final-year Computer Science Engineering student with hands-on experience b
     <td width="220"><b>👨‍💻 Programming Languages</b></td>
     <td>
       <img src="https://skillicons.dev/icons?i=java,cpp,py,js" alt="Languages" />
-      <img src="https://img.shields.io/badge/SQL-3B82F6?style=for-the-badge" alt="SQL" />
+      <img src="https://img.shields.io/badge/SQL-3B82F6?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL" />
     </td>
   </tr>
   <tr>
     <td><b>🌐 Web Technologies</b></td>
     <td>
       <img src="https://skillicons.dev/icons?i=react,html,css,nodejs,express" alt="Web" />
-      <img src="https://img.shields.io/badge/REST_APIs-3B82F6?style=for-the-badge" alt="REST APIs" />
     </td>
   </tr>
   <tr>
@@ -69,7 +68,6 @@ I'm a final-year Computer Science Engineering student with hands-on experience b
     <td><b>🧰 Tools & Platforms</b></td>
     <td>
       <img src="https://skillicons.dev/icons?i=git,github,docker,kafka,aws,vercel,postman,cmake" alt="Tools" />
-      <img src="https://img.shields.io/badge/GDB-3B82F6?style=for-the-badge" alt="GDB" /><br />
     </td>
   </tr>
   <tr>
@@ -91,7 +89,7 @@ I'm a final-year Computer Science Engineering student with hands-on experience b
       <img src="https://img.shields.io/badge/OOP-10B981?style=for-the-badge" alt="OOP" />
       <img src="https://img.shields.io/badge/Operating_Systems-10B981?style=for-the-badge" alt="Operating Systems" />
       <img src="https://img.shields.io/badge/System_Design-10B981?style=for-the-badge" alt="System Design" />
-      <img src="https://img.shields.io/badge/System_Design-10B981?style=for-the-badge" alt="Computer Network" />
+      <img src="https://img.shields.io/badge/Computer_Networks-10B981?style=for-the-badge" alt="Computer Networks" />
     </td>
   </tr>
 </table>
