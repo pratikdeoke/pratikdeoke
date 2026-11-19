@@ -159,8 +159,7 @@ flowchart LR
 
 <br />
 
-<img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" width="100%" />
-
+<img src="./profile-3d-contrib/profile-night-green.svg" alt="3D contribution graph" width="100%" />
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=100&section=footer&reversal=true" alt="" width="100%" />
 
 </div>
