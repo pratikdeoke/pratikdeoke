@@ -44,24 +44,57 @@ I'm a final-year Computer Science Engineering student with hands-on experience b
 
 ## 🌍 Open Source Contributions
 
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,20,24&height=90&section=header&text=Compiler%20Explorer&fontSize=34&fontColor=ffffff&animation=twinkling&fontAlignY=50" alt="Compiler Explorer" width="100%" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=1200&color=3B82F6&center=true&vCenter=true&width=620&lines=feat(gccdump):+Library+Functions+toggle;Resolves+issue+%239118+in+GCC+dump+pane;TypeScript+%7C+Full-stack+wiring+%7C+Regression+tests" alt="Typing animation" />
+
+<p>
+  <a href="https://github.com/compiler-explorer/compiler-explorer/pull/9137"><img src="https://img.shields.io/badge/Pull_Request-%239137-3B82F6?style=for-the-badge&logo=github&logoColor=white" alt="Pull Request 9137" /></a>
+  <img src="https://img.shields.io/github/issues/detail/state/compiler-explorer/compiler-explorer/9137?style=for-the-badge&label=Status" alt="PR status" />
+  <a href="https://github.com/compiler-explorer/compiler-explorer/issues/9118"><img src="https://img.shields.io/badge/Fixes-%239118-10B981?style=for-the-badge&logo=github&logoColor=white" alt="Fixes 9118" /></a>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+</p>
+
+</div>
+
 <table>
   <tr>
-    <td>
-      <h3>⚙️ <a href="https://github.com/compiler-explorer/compiler-explorer">Compiler Explorer</a></h3>
-      <p>
-        <a href="https://github.com/compiler-explorer/compiler-explorer/pull/9137"><img src="https://img.shields.io/badge/PR-%239137-3B82F6?style=flat-square&logo=github" alt="Pull Request 9137" /></a>
-        <img src="https://img.shields.io/github/issues/detail/state/compiler-explorer/compiler-explorer/9137?style=flat-square" alt="PR status" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-      </p>
-      <p><b>feat(gccdump): toggle to show/hide library functions in the dump pane</b></p>
-      <ul>
-        <li>Resolved <a href="https://github.com/compiler-explorer/compiler-explorer/issues/9118">issue #9118</a>: the GCC dump pane silently removed every function from <code>/usr/</code>, <code>/opt/</code>, and <code>/include/</code>, which made inlined standard-library and third-party functions impossible to inspect.</li>
-        <li>Added an opt-in <b>Library Functions</b> toggle, wired end-to-end from the UI Options dropdown through <code>GccDumpFiltersState</code> and <code>compiler.ts</code> to <code>trimGccDumpHeaderFunctions</code>. Default behavior is unchanged.</li>
-        <li>Added a regression test, kept the existing unit tests passing, and verified the change with <code>tsc --noEmit</code> and manual testing in the GCC Tree/RTL Viewer.</li>
-      </ul>
+    <td width="50%" valign="top">
+      <h3>🐞 The Problem</h3>
+      <p>The GCC dump pane silently deleted every function whose source path contained <code>/usr/</code>, <code>/opt/</code>, or <code>/include/</code>, making inlined standard-library and third-party functions impossible to inspect.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>💡 The Solution</h3>
+      <p>An opt-in <b>Library Functions</b> toggle in the Options dropdown. The filter stays on by default, so existing behavior is unchanged.</p>
     </td>
   </tr>
 </table>
+
+### 🔌 End-to-End Wiring
+
+```mermaid
+flowchart LR
+    A[Options Toggle] --> B[GccDumpFiltersState]
+    B --> C[compiler.ts]
+    C --> D[GccDumpOptions]
+    D --> E[processGccDumpOutput]
+    E --> F[trimGccDumpHeaderFunctions]
+```
+
+### ✅ Quality Checks
+
+<p>
+  <img src="https://img.shields.io/badge/Regression_Test-Added-10B981?style=flat-square&logo=checkmarx&logoColor=white" alt="Regression test added" />
+  <img src="https://img.shields.io/badge/Existing_Unit_Tests-24_Passing-10B981?style=flat-square" alt="24 unit tests passing" />
+  <img src="https://img.shields.io/badge/tsc_--noEmit-Clean-3B82F6?style=flat-square&logo=typescript&logoColor=white" alt="tsc clean" />
+  <img src="https://img.shields.io/badge/Manually_Verified-GCC_Tree%2FRTL_Viewer-8B5CF6?style=flat-square" alt="Manually verified" />
+</p>
+
+<div align="right">
+  <a href="https://github.com/compiler-explorer/compiler-explorer/pull/9137"><b>View the Pull Request →</b></a>
+</div>
 
 ---
 
