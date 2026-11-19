@@ -42,6 +42,29 @@ I'm a final-year Computer Science Engineering student with hands-on experience b
 
 ---
 
+## 🌍 Open Source Contributions
+
+<table>
+  <tr>
+    <td>
+      <h3>⚙️ <a href="https://github.com/compiler-explorer/compiler-explorer">Compiler Explorer</a></h3>
+      <p>
+        <a href="https://github.com/compiler-explorer/compiler-explorer/pull/9137"><img src="https://img.shields.io/badge/PR-%239137-3B82F6?style=flat-square&logo=github" alt="Pull Request 9137" /></a>
+        <img src="https://img.shields.io/github/issues/detail/state/compiler-explorer/compiler-explorer/9137?style=flat-square" alt="PR status" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+      </p>
+      <p><b>feat(gccdump): toggle to show/hide library functions in the dump pane</b></p>
+      <ul>
+        <li>Resolved <a href="https://github.com/compiler-explorer/compiler-explorer/issues/9118">issue #9118</a>: the GCC dump pane silently removed every function from <code>/usr/</code>, <code>/opt/</code>, and <code>/include/</code>, which made inlined standard-library and third-party functions impossible to inspect.</li>
+        <li>Added an opt-in <b>Library Functions</b> toggle, wired end-to-end from the UI Options dropdown through <code>GccDumpFiltersState</code> and <code>compiler.ts</code> to <code>trimGccDumpHeaderFunctions</code>. Default behavior is unchanged.</li>
+        <li>Added a regression test, kept the existing unit tests passing, and verified the change with <code>tsc --noEmit</code> and manual testing in the GCC Tree/RTL Viewer.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## 🛠 Tech Stack
 
 <table>
@@ -49,7 +72,6 @@ I'm a final-year Computer Science Engineering student with hands-on experience b
     <td width="220"><b>👨‍💻 Programming Languages</b></td>
     <td>
       <img src="https://skillicons.dev/icons?i=java,cpp,py,js" alt="Languages" />
-      <img src="https://img.shields.io/badge/SQL-3B82F6?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL" />
     </td>
   </tr>
   <tr>
