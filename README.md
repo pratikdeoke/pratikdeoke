@@ -152,7 +152,17 @@ flowchart LR
 ---
 
 <div align="center">
-  <img src="./profile-3d-contrib/profile-green-animate.svg" alt="3D contribution graph" width="100%" />
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=100&section=header&animation=fadeIn" alt="" width="100%" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=2500&pause=1000&color=3B82F6&center=true&vCenter=true&width=500&lines=Every+commit+counts;Consistency+over+intensity;Building+in+public" alt="Typing animation" />
+
+<br />
+
+<img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" width="100%" />
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=100&section=footer&reversal=true" alt="" width="100%" />
+
 </div>
 
 ---
