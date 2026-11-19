@@ -152,7 +152,7 @@ flowchart LR
 ---
 
 <div align="center">
-  <img src="./profile-3d-contrib/profile-night-rotate.svg" alt="3D contribution graph" width="100%" />
+  <img src="./profile-3d-contrib/profile-green-animate.svg" alt="3D contribution graph" width="100%" />
 </div>
 
 ---
